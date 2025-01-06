@@ -1,0 +1,65 @@
+
+~~Variables:
+--Static types and Dynamic typed.
+--Are use to stored the data (any kind of data)
+--1) Case-Sensitive
+--2) start with letters,_(under-score), $(dollar-sign)
+--3) can't start with numbers
+--4) Reserved words(keywords) not allowed
+--5) Allow letters, _(under-score), $(dollar-sign), numbers
+
+
+1)Reassigning variables is possible by var
+2)Reassigning with let also accepted
+3)Reassigning with const not accepted
+
+
+--Redeclaring with var is accepted
+--Redeclaring with let is not accepted
+--Redeclaring with const is not accepted
+
+
+Block scope:
+--Variables declared with var doesn't have a block scope
+--declared with let has a block scope
+
+IMPLEMENTATION
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let a = 'sindu'
+        // {
+        //   let a = 'reshma'
+        //   console.log(a)
+        //   document, write(a, '< br > ')
+        //document.write(a)
+        // }
+        // console.log(a)
+        //  console.log(a)
+        //  let a = 1;
+        //let a = 5;
+        // document.write(a + a)
+        // console.log(a + a)
+        //var a = 1
+        //a = 5
+        //console.log(a + a)
+        // document.write(a + a)
+        // var a = 'ramya'
+        //  a = 'kavya'
+        // a = 'sam'
+        // console.log(a)
+        // console.log(a)
+        //document.write(a)
+    </script>
+
+</body>
+
+</html>
